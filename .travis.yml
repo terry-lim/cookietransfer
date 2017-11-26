@@ -17,5 +17,5 @@ install: "pip install ."
 # command to - tests
 script:
   - xvfb-run -a python setup.py test
-  - flake8
   - codecov
+  - flake8
