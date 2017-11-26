@@ -3,7 +3,7 @@ import selenium
 from urllib.parse import urlparse
 
 
-def stranfer(source, target, url):
+def cookietransfer(source, target, url):
     acceptable_browser_list = [selenium.webdriver.chrome.webdriver.WebDriver]
     if (isinstance(source, requests.sessions.Session) and
             type(target) in acceptable_browser_list):
