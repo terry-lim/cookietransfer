@@ -16,7 +16,6 @@ setup(name='cookietransfer',
       tests_require=[
           'beautifulsoup4>=4.6.0',
           'pytest>=3.2.5',
-          'pytest-cov>=2.5.1',
           'flake8>=3.5.0'],
       license='MIT',
       keywords=['cookie', 'session', 'selenium',
