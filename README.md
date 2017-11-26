@@ -1,4 +1,4 @@
-cookietransfer
+cookietransfer [![Build Status](https://travis-ci.org/terry-lim/cookietransfer.svg?branch=master)](https://travis-ci.org/terry-lim/cookietransfer) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
 =
 The purpose of this package is to help transfer cookie data between Selenium webdriver and request session vice versa. This comes in handy when you need to use a browser to login but then don't really need the browser after that.
 
